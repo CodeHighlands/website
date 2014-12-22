@@ -1,6 +1,6 @@
 Examples for me
 
-[hackbca.com](www.hackbca.com)  
-www.hackru.org  
-[hackdfw.com](www.hackdfw.com)  
-http://www.hackatbrown.org/
+www.hackbca.com  
+www.hackru.org   
+www.hackdfw.com   
+http://www.hackatbrown.org/  
