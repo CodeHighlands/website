@@ -56,56 +56,94 @@ a {
 }
 .backtotop .btn {
 	font-size: 20px;
+	border-radius: 25px;
 	background: rgba(255,255,255,.5);
-	color: #e55451;
+	color: #fff;
 }
 .backtotop .btn:hover {
 	background: white;
+	color: #e55451;
 }
 .page {
 	height: 100%;
-	width: 100%;
+	min-height: 500px;
+	min-width: 100%;
 	position: relative;
 }
 .title {
 	text-transform: uppercase;
 	width: auto;
 	left: 10%;
-	top: 25%;
+	top: 20%;
 	position: absolute;
 }
 .title h1 {
 	font-size: 130px;
 	margin: 0;
+	-webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
 }
 .title h4 {
 	font-size: 30px;
 	margin: 0;
-	/*margin-left: 90px;*/
+	-webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
 }
 .title .buttonbox {
 	margin-top: 40px;
 	visibility: hidden;
 }
-.title .btn {
-	font-size: 25px;
-	margin: 0 30px 0 0;
-	padding: 5px 30px;
-	border: 5px solid transparent;
-	border-radius: 30px;
-	background: rgba(255,255,255,.7);
-	color: #e55451;
-	-webkit-animation-delay: 0.2s;
-    -o-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+
+@media screen and (min-width: 750px) {
+	.nav {
+		display: inline;
+	}
+    .title .btn {
+		width: 208px;
+		font-size: 25px;
+		margin: 0 30px 0 0;
+		padding: 5px 30px;
+		border: 5px solid transparent;
+		border-radius: 30px;
+		background: rgba(255,255,255,.7);
+		color: #e55451;
+		-webkit-animation-delay: 0.2s;
+	    -o-animation-delay: 0.2s;
+	    animation-delay: 0.2s;
+	}
+}
+@media screen and (max-width: 750px) {
+	.nav {
+		display: none;
+	}
+	.title .btn {
+		width: 150px;
+		font-size: 15px;
+		margin: 0 0 20px 0;
+		padding: 5px 30px;
+		border: 5px solid transparent;
+		border-radius: 30px;
+		background: rgba(255,255,255,.7);
+		color: #e55451;
+		-webkit-animation-delay: 0.2s;
+	    -o-animation-delay: 0.2s;
+	    animation-delay: 0.2s;
+	}
+	.title .buttonbox {
+		text-align: center;
+	}
 }
 .title .btn:hover {
 	/*border-width: 5px;*/
 	border-color: rgba(255,255,255,1);
 	background-color: rgba(255,255,255,.5);
 }
-
-
-.page-3 {
-	background: rgba(0,0,0,.5);
+.page .content {
+	padding: 40px;
+}
+.page-2 {
+	background: #ad1511;
+}
+.page-4 {
+	background: #c2201c;
 }
