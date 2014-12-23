@@ -1,0 +1,111 @@
+/*
+ * codehighlands.css -- Code_Highlands
+ * (C) Theodore Kluge & Michael Nasta 2014-2015
+ * villa7.github.io
+*/
+/*
+ * TODO: Add media queries to font sizes, box sizes, etc to make the design responsive to different displays
+*/
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	/*background: #e42217;*/
+	background: #e55451;
+	color: #fff;
+	font-family: 'Proxima Nova', Verdana, sans-serif;
+}
+::selection {
+	background: rgba(255,255,255,.3);
+}
+a {
+	letter-spacing: 2px;
+	-webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.nav {
+	right: 30px;
+	top: 20px;
+	position: absolute;
+	visibility: hidden;
+	z-index: 100;
+}
+.nav .btn {
+	border: none;
+	border-radius: 0;
+	border-bottom: solid 3px transparent;
+	margin: 0;
+	padding: 5px 15px;
+	font-size: 15px;
+	color: rgba(255,255,255,.7);
+	text-transform: uppercase;
+}
+.nav .btn:hover {
+	color: #fff;
+	border-color: #fff;
+}
+.backtotop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	visibility: hidden;
+	z-index: 100;
+}
+.backtotop .btn {
+	font-size: 20px;
+	background: rgba(255,255,255,.5);
+	color: #e55451;
+}
+.backtotop .btn:hover {
+	background: white;
+}
+.page {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.title {
+	text-transform: uppercase;
+	width: auto;
+	left: 10%;
+	top: 25%;
+	position: absolute;
+}
+.title h1 {
+	font-size: 130px;
+	margin: 0;
+}
+.title h4 {
+	font-size: 30px;
+	margin: 0;
+	/*margin-left: 90px;*/
+}
+.title .buttonbox {
+	margin-top: 40px;
+	visibility: hidden;
+}
+.title .btn {
+	font-size: 25px;
+	margin: 0 30px 0 0;
+	padding: 5px 30px;
+	border: 5px solid transparent;
+	border-radius: 30px;
+	background: rgba(255,255,255,.7);
+	color: #e55451;
+	-webkit-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.title .btn:hover {
+	/*border-width: 5px;*/
+	border-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,.5);
+}
+
+
+.page-3 {
+	background: rgba(0,0,0,.5);
+}
