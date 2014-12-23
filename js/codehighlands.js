@@ -70,7 +70,7 @@ $('a[href*=#]:not([href=#])').click(function(e) {
         if (target.length) {
 	        $('html,body').animate({
 	            scrollTop: target.offset().top
-	        }, 1000, 'swing');
+	        }, 1000, 'easeInOutCubic');
 	        //window.location.hash = target.selector;
 	        return false;
         }
