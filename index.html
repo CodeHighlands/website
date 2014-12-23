@@ -17,7 +17,7 @@ villa7.github.io
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/codehighlands.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <!--    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script> -->
+       <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 		
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,31 +30,31 @@ villa7.github.io
 <body>
 
 <section class="nav animated">
-<a class="btn btn-nav" href="#2">About</a>
-<a class="btn btn-nav" href="#3">FAQ</a>
+<a class="btn btn-nav" href="#about">About</a>
+<a class="btn btn-nav" href="#faq">FAQ</a>
 <a class="btn btn-nav" href="#contact">Contact</a>
 </section>
 <section class="backtotop animated">
-<a class="btn btn-backtotop" href="#1"><i class="fa fa-angle-double-up"></i></a>
+<a class="btn btn-backtotop" href="#top"><i class="fa fa-angle-double-up"></i></a>
 </section>
 
-<section class="page page-1" id="1">
+<section class="page page-1" id="top">
     <section class="title animated" id="main-title">
         <!-- <img src="/img/logo.svg" alt="code_highlands logo" /> -->
         <!-- <img src="http://placehold.it/170x170"> -->
         <h1>Code<span style="color:#333">_</span>Highlands</h1>
-        <h4>Subtitle with random info</h4>
-        <h4><strong>Second subtitle with dates and stuff</strong></h4>
+        <h4>A website Ali asked us to make</h4>
+        <h4><strong>I have no idea what is going on but it's ok</strong></h4>
         <div class="buttonbox animated">
-            <a href="#" class="btn btn-register" id="register">Register</a>
-            <a href="#" class="btn">Button 2</a>
+            <a href="http://www.typeform.com/" class="btn btn-register" id="register">Register</a>
+            <a href="javascript:location.reload()" class="btn">Refresh</a>
         </div>
     </section>
 </section>
-<section class="page page-2" id="2">
-    <section class="content">
-    <h2>PAGE 2</h2>
-        General info goes here.
+<section class="page page-2" id="about">
+    <section class="content" id="page-2-content">
+    <h2>Page 2</h2>
+        General info goes here.<br>
         TODO LIST:<br>
         <ul><li>Make stuff responsive:</li>
         <li>Text</li>
@@ -65,15 +65,36 @@ villa7.github.io
         <li>Fact: parallax is awesome. Add parallax somewhere.</li>
         <li>Figure out how to put the nonexistant logo to the left of the title</li>
         <li>Get/make a favicon</li>
-        <li>Redo the 2 ugly buttons on page 1</li>
         <li>Design title more</li>
+        <li>Find a good size for the body font</li>
         </ul>
     </section>
 </section>
-<section class="page page-3" id="3">
+<section class="page page-3" id="faq">
     <section class="content">
-    <h2>PAGE 3</h2>
-        All the detail goes here.
+    <h2>Page 3</h2>
+        All the detail goes here.<br>
+        Ali made an example of the entire site:
+        <div>
+            <h1> Code Highlands!</h1> 
+            <blockquote> Hackathon: &quot;An event that providies the conditions (support, time pressure, hype, tools, resources, teammates, etc) to allow people to expand their knowledge of technology, create new things, build confidence in their abilities, and meet like-minded people, and then to inspire them to continue to be active in technology.&quot; - Ari Vaniderstine </blockquote>
+            <p> We give you 24 hours </p>
+            <p> and you make something beautiful</p>
+            <p>Starts: April 11 2015 @ TIME </p>
+            <p>Ends: April 12 2015 @ TIME</p>
+            <p> Where is it?<br><a href="https://www.google.com/maps/place/Northern+Highlands+School+District/@41.035629,-74.143765,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2e3eb240c2ee7:0x4b3a13d7612703d4" target="_blank">Northern Highlands Regional High School</a> located in Allendale NJ </p>
+            <li>About</li>
+            <li>Information</li>
+            <li>Schedule</li>
+            <li>Prizes</li>
+            <li>Rules</li>
+        </div>
+    </section>
+</section>
+<section class="page page-4" id="contact">
+    <section class="content">
+    <h2>Page 4</h2>
+        Closing details and contact-y stuff go here.
     </section>
 </section>
 </body>
@@ -85,7 +106,7 @@ villa7.github.io
             scrollspeed: 80,
             mousescrollstep: 60,
             cursorborder: '0px',
-            cursorcolor: "#ddd"
+            cursorcolor: "rgba(255,255,255,.6)"
         });
     </script>
 </html>
