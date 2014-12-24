@@ -110,7 +110,7 @@ function resizeAll() {
 			'margin-left': 0,
 			'width': 'auto'
 		})
-		$(element.title).html("code<span style='color:#333'>_</span>highlands");
+		$(element.title).html("<span style='color:#333'>Code</span>highlands");
 	} else { //little display
 		width = {
 			title: winWidth
