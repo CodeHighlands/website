@@ -105,7 +105,7 @@ function resizeAll() {
 			title: winWidth - (winWidth * 0.1) - (winWidth * 0.31)
 		}
 		$('.title').css({
-			'left': 168
+			'left': 100
 		});
 		$('.title .buttonbox').css({
 			'margin-left': 0,
@@ -153,7 +153,7 @@ var anim = {
 		$('section .title').removeClass('fadeInDownBig').addClass("bounceOutRight");
 		setTimeout(function() {
 			document.location = ($('#' + a).attr('linkTo'));
-		}, 500);
+		}, 600);
 	},
 	enter: function() {
 
