@@ -1,6 +1,6 @@
 /*
  * codehighlands.js -- Code_Highlands
- * (C) Theodore Kluge & Michael Nasta 2014-2015
+ * (C) Theodore Kluge 2014-2015
  * villa7.github.io
 */
 //global vars are nice
@@ -22,7 +22,7 @@ $(document).ready(function() {
 			'visibility': 'visible'
 		}).addClass('bounceInLeft');
 		setTimeout(function() {
-			$('.nav').css({
+			$('.nav, .smallnav').css({
 				'visibility': 'visible'
 			}).addClass('bounceInRight');
 		}, 100);
@@ -96,7 +96,8 @@ function resizeAll() {
 		title: ".title h1",
 		subtitle: ".title h4",
 		nav: ".nav",
-		titleButtons: ".title .btn"
+		titleButtons: ".title .btn",
+		maplink: "#maplink"
 	};
 
 	if (winWidth > sizeDiff) { //big display
@@ -111,6 +112,10 @@ function resizeAll() {
 			'width': 'auto'
 		})
 		$(element.title).html("<span style='color:#333'>Code</span>highlands");
+		$(element.maplink).html("Northern Highlands Regional High School");
+		$('.page-3 h1').html("General info:");
+
+		//code to remove sidebar nav
 	} else { //little display
 		width = {
 			title: winWidth
@@ -123,6 +128,10 @@ function resizeAll() {
 			'width': winWidth
 		})
 		$(element.title).html("<span style='color:#333'>code</span><br>highlands");
+		$(element.maplink).html("NHRHS");
+		$('.page-3 h1').html("info:");
+
+		//code to add sidebar nav
 	}
 
 	fSize = {
@@ -138,6 +147,18 @@ function resizeAll() {
 	});
 }
 
+var anim = {
+	exit: function(a) {
+		$('section .content').removeClass('fadeInLeft').addClass("bounceOutRight");
+		$('section .title').removeClass('fadeInDownBig').addClass("bounceOutRight");
+		setTimeout(function() {
+			document.location = ($('#' + a).attr('linkTo'));
+		}, 500);
+	},
+	enter: function() {
+
+	}
+}
 /*
 1680 - 1143 = 537
 1680 10% = 168 left
