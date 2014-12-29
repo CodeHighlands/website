@@ -1,4 +1,4 @@
-body{
+html{
 background-color: rgb(229,84,81);
 }
 img{
@@ -23,4 +23,21 @@ h2{
 
 .nasta{
     padding-left: 30px;
+}
+.backtomain {
+	position: fixed;
+	top: 0px;
+	left: 20px;
+}
+.btn-backtomain {
+	font-size: 20px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.5);
+	color: #fff;
+	height: 40px;
+	width: 40px;
+}
+.btn-backtomain:hover {
+	background: white;
+	color: #e55451;
 }

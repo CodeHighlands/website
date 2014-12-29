@@ -223,6 +223,13 @@ h4 {
 	height: auto;
 	width: 100%;
 }
+.page-4 .social:hover {
+	-ms-transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    -moz-transform:rotate(15deg);
+    -o-transform:rotate(15deg);
+    transform:rotate(15deg);
+}
 .page-4 .col div {
 	text-align: center;
 }
@@ -252,7 +259,7 @@ h4 {
 .contact {
 	margin-top: 100px;
 }
-.sodr-open,
+.sidr-open,
 .sidr-close {
 	font-size: 20px;
 	float: right;

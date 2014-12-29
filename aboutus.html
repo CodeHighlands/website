@@ -4,14 +4,32 @@
 (C) Ali Malik 2014-2015
 harrowimali.github.io/me
 -->
-<head> 
-    <title> About Us!</title>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>CodeHighlands | About Us!</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
      <link rel="stylesheet" href="css/aboutus.css">
      <link rel="stylesheet" href="css/codehighlands.css">
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 </head>
 
 
 <body>
+<section class="everything animated bounceInRight" id="top">
+
+<section class="backtotop animated">
+    <a class="btn btn-backtotop" href="#top"><i class="fa fa-angle-double-up"></i></a>
+</section>
+<section class="backtomain animated">
+    <a class="btn btn-backtomain" linkto="index.html" onclick="anim.exittomain(this.id)" id="backtomain"><i class="fa fa-angle-double-left"></i></a>
+</section>
 
 <h1> <center>Hi there!</center></h1>
 <h2><center>We're the CodeHighlands team</center></h2>
@@ -54,7 +72,8 @@ harrowimali.github.io/me
 <h3><center>Abby Hoffer</center></h3>
     <h4><center>Designer</center></h4></td>
 <td>
-<center><img src="http://placehold.it/250x250"></center>
+<center><!-- <img src="https://avatars0.githubusercontent.com/u/1696813?v=3&s=250"> --><img src="img/theoplaceholder.jpg" alt="theo kluge placeholder picture, because a fox is not 'professional' or something like that." /></center>
+<!-- until you get a stock image I like, I will keep my picture as my github picture. :3 --><!-- or maybe not since its not "professional" -->
 <h3><center>Theodore Kluge</center></h3>
     <h4><center>Programmer</center></h4></td>
 <td>
@@ -72,6 +91,19 @@ harrowimali.github.io/me
 
 </tr></table>
     </center>
+
+</section>
+
+    <script src="js/codehighlands.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<script type='text/javascript'>
+    $("html").niceScroll({ 
+        scrollspeed: 80,
+        mousescrollstep: 60,
+        cursorborder: '0px',
+        cursorcolor: "rgba(255,255,255,.6)"
+    });
+</script>
 </body>
 
 </html>

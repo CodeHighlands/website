@@ -155,6 +155,12 @@ var anim = {
 			document.location = ($('#' + a).attr('linkTo'));
 		}, 600);
 	},
+	exittomain: function(a) {
+		$('section.everything').removeClass('bounceInLeft').addClass("bounceOutRight");
+		setTimeout(function() {
+			document.location = ($('#' + a).attr('linkTo'));
+		}, 600);
+	},
 	enter: function() {
 
 	}
