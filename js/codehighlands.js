@@ -113,7 +113,7 @@ function resizeAll() {
 		})
 		$(element.title).html("<span style='color:#333'>Code</span>highlands");
 		$(element.maplink).html("Northern Highlands Regional High School");
-		$('.page-3 h1').html("General info:");
+		//$('.page-3 h1').html("General info:");
 
 		//code to remove sidebar nav
 	} else { //little display
@@ -129,7 +129,7 @@ function resizeAll() {
 		})
 		$(element.title).html("<span style='color:#333'>code</span><br>highlands");
 		$(element.maplink).html("NHRHS");
-		$('.page-3 h1').html("info:");
+		//$('.page-3 h1').html("info:");
 
 		//code to add sidebar nav
 	}
