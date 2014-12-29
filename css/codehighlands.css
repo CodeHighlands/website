@@ -112,7 +112,7 @@ h4 {
 	visibility: hidden;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 751px) {
 	.nav {
 		display: inline;
 	}
@@ -143,7 +143,7 @@ h4 {
 		border-top-right-radius: 20px;
 	}
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 751px) {
 	.nav {
 		display: none;
 	}
