@@ -67,6 +67,7 @@ villa7.github.io
         </div>
     </section>
 </section>
+
 <section class="page page-2" id="about">
     <section class="content animated fadeInLeft" id="page-2-content">
     <!-- <h1>About:</h1> -->
@@ -74,25 +75,9 @@ villa7.github.io
     <br><br>
     <p style="color:#333">We give you 24 hours...</p>
     <p>And you create something beautiful.</p>
-    
-    <!--<h2>Page 2</h2>-->
-        <!-- General info goes here.<br>
-        TODO LIST:<br>
-        <ul><li>Make stuff responsive:</li>
-        <li>Text</li>
-        <li>Sections</li>
-        <li>Navs</li>
-        <li>Javascriiiiiiiipt</li>
-        <li>Add more detail</li>
-        <li>Fact: parallax is awesome. Add parallax somewhere.</li>
-        <li>Figure out how to put the nonexistant logo to the left of the title</li>
-        <li>Get/make a favicon</li>
-        <li>Design title more</li>
-        <li>Find a good size for the body font</li>
-        <li>Continue to vote against the pictures and go for simple designs</li>
-        </ul> -->
     </section>
 </section>
+
 <section class="page page-3" id="faq">
     <section class="content animated fadeInLeft">
     <h1>FAQ</h1>
@@ -130,6 +115,7 @@ villa7.github.io
         </div>
     </section>
 </section>
+
 <section class="page page-4" id="contact">
     <section class="content animated fadeInLeft">
     <h1></h1>
@@ -156,8 +142,8 @@ villa7.github.io
                     </a>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <a class="social animated" id="googleplus" linkTo="https://plus.google.com" href="mailto:codehighlands@gmail.com">
-                        <i class="fa fa-at"></i>
+                    <a class="social animated" id="email" linkTo="mailto:codehighlands@gmail.com" onclick="anim.exit(this.id)">
+                        <i class="fa fa-envelope"></i>
                     </a>
                 </div>
             </div>
@@ -165,11 +151,23 @@ villa7.github.io
     </section>
 </section>
     
-    
-<section class="page page-5" id="sponsers">
+<section class="page page-5" id="sponsors">
     <section class="content animated fadeInLeft">
-        <h1>Special thanks to our sponsers!</h1>
-
+        <h2>Special thanks to our sponsors!</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="sponsor-item" id="sponsor-item-1"></div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="sponsor-item"></div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="sponsor-item"></div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="sponsor-item"></div>
+            </div>
+        </div>
     </section>
 </section>
 
@@ -187,5 +185,9 @@ villa7.github.io
     /*$('#sidr').sidr({
         side: 'right'
     });*/
+    if ($('#sponsor-item-1').text() == "") {
+        $('#sponsors').css("display", "none");
+        $("#contact .content").append("<p>Sponsors to be revealed soon.</p>");
+    }
 </script>
 </html>

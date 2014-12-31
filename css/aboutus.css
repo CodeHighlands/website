@@ -1,5 +1,5 @@
-html{
-background-color: rgb(229,84,81);
+html, body {
+background-color: rgb(229,84,81);height:100%;width:100%;margin:0;padding:0;
 }
 img{
 border-radius: 50%;
@@ -25,7 +25,7 @@ h2{
     padding-left: 30px;
 }
 .backtomain {
-	position: fixed;
+	position: fixed !important;
 	top: 0px;
 	left: 20px;
 }
@@ -36,6 +36,8 @@ h2{
 	color: #fff;
 	height: 40px;
 	width: 40px;
+	position: fixed;
+	left: 20px;
 }
 .btn-backtomain:hover {
 	background: white;
