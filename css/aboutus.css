@@ -12,7 +12,14 @@ h1{
 h2{
  font-size: 35px;   
 }
-
+.h3,.h4 {
+	width: 100%;
+	text-align: center;
+}
+.row div {
+	text-align: center;
+}
+/*
 .ali{
     padding-bottom: 30px;
 }
@@ -23,10 +30,10 @@ h2{
 
 .nasta{
     padding-left: 30px;
-}
+}*/
 .backtomain {
 	position: fixed !important;
-	top: 0px;
+	top: 20px;
 	left: 20px;
 }
 .btn-backtomain {
@@ -37,7 +44,6 @@ h2{
 	height: 40px;
 	width: 40px;
 	position: fixed;
-	left: 20px;
 }
 .btn-backtomain:hover {
 	background: white;
