@@ -19,6 +19,9 @@ body {
 	font-family: 'Proxima Nova', Verdana, sans-serif;
 	/*overflow-x: hidden;*/
 }
+html {
+	cursor: default !important;
+}
 ::selection {
 	background: rgba(255,255,255,.3);
 }
