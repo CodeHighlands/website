@@ -19,18 +19,7 @@ h2{
 .row div {
 	text-align: center;
 }
-/*
-.ali{
-    padding-bottom: 30px;
-}
 
-.elaine{
-    padding-right: 30px;
-}
-
-.nasta{
-    padding-left: 30px;
-}*/
 .backtomain {
 	position: fixed !important;
 	/*top: 20px;*/
@@ -48,4 +37,12 @@ h2{
 .btn-backtomain:hover {
 	background: white;
 	color: #e55451;
+}
+
+.people{
+    background-color: rgba(236, 240, 241,.5);
+    padding: 25px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 1px solid;
 }
