@@ -17,7 +17,7 @@ villa7.github.io
     <link href="css/codehighlands.css" rel="stylesheet">
     <!-- <link href="css/jquery.sidr.dark.css" rel="stylesheet"> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
     <!-- <script src="js/jquery.sidr.min.js"></script> -->
 		
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,34 +36,23 @@ villa7.github.io
     <a class="btn btn-nav" href="#faq">FAQ</a>
     <a class="btn btn-nav" href="#contact">Contact</a>
     <a class="btn btn-nav" linkTo="aboutus.html" onclick="anim.exit(this.id)" id="btnTeam">Team</a> <!--Use this format of link for outgoing links -->
+    
 </section>
-<!-- Doesnt work: -->
-<!-- <section class="smallnav" onclick="$.sidr()">
-<i class="fa fa-bars sidr-open"></i>
-</section>
-<section class="sidr animated" id="sidr">
-    <ul>
-        <li><a class="btn btn-nav" onclick="$.sidr()" href="#about">About</a></li>
-        <li><a class="btn btn-nav" onclick="$.sidr()" href="#faq">info</a></li>
-        <li><a class="btn btn-nav" onclick="$.sidr()" linkTo="aboutus.html" onclick="anim.exit(this.id)" id="btnTeam">Team</a></li>
-        <li><a class="btn btn-nav" onclick="$.sidr()" href="#contact">Contact</a></li>
-    </ul>
-</section> -->
+
 <section class="backtotop animated">
     <a class="btn btn-backtotop" href="#top"><i class="fa fa-angle-double-up"></i></a>
 </section>
 
 <section class="page page-1" id="top">
     <section class="title animated" id="main-title">
-        <!-- <img src="http://placehold.it/170x170"> -->
-        <!-- <img src="Images/text3.png" width="70%" height="40%"> --><!-- Harris says he doesnt like the title image thing -->
+
         <h1><span style="color:#333">Code</span>Highlands</h1>
         <h4>Northern Highlands' first hackathon</h4>
         <h4><strong>December 12th - 13th</strong></h4>
         <div class="buttonbox animated">
             
-                <a class="typeform-share link" href="https://codehighlands.typeform.com/to/cAmVzU" data-mode="1" target="_blank">        
-            <div class="btn btn-register" id="register" target="_blank">Register</div>
+                <a class="typeform-share link btn btn-register" href="https://codehighlands.typeform.com/to/cAmVzU" data-mode="1" target="_blank" >        
+            <div target="_blank">Register</div>
             </a>
             
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
@@ -164,23 +153,48 @@ villa7.github.io
     
 <section class="page page-5" id="sponsors">
     <section class="content animated fadeInLeft">
+        <div class="container">
         <h2>Special thanks to our sponsors!</h2>
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="sponsor-item" id="sponsor-item-1"></div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="sponsor-item"></div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="sponsor-item"></div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="sponsor-item"></div>
-            </div>
-        </div>
         <br>
-        <span style='font-size:60%'><a href='mailto:codehighlands@gmail.com'>Email</a> us if you are interested in becoming a sponsor!</span>
+        <div class="row">
+            
+            
+            <div class="col-md-4 col-sm-12">
+                <img class="sponsor-item" src= "sponsorlogos/codeup.png">
+            </div>
+            
+            <div class="col-md-4 col-sm-12">
+                <img class="sponsor-item" src= "sponsorlogos/kpcbW.png">
+            </div>
+            
+            <div class="col-md-4 col-sm-12">
+                <img class="sponsor-item" src= "sponsorlogos/lob.png" >
+            </div>
+            
+        </div>
+            
+            <div class="row">
+            
+            <div class="col-md-4 col-sm-12">
+            <img class="sponsor-item" src="sponsorlogos/deals4meals.png">
+            </div>
+            
+            <div class="col-md-4 col-sm-12">
+             <img class="sponsor-item" src= "sponsorlogos/treehouse.png">
+            </div>
+            
+            <div class="col-md-4 col-sm-12">
+                <img class="sponsor-item" src= "sponsorlogos/wolfram.png">
+            </div>
+            
+            </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center><span style='font-size:40px;'><a href='mailto:codehighlands@gmail.com'>Email</a> us if you are interested in becoming a sponsor!</span></center>
+    </div>
     </section>
 </section>
 
@@ -192,10 +206,7 @@ villa7.github.io
     /*$('#sidr').sidr({
         side: 'right'
     });*/
-    if ($('#sponsor-item-1').text() == "") {
-        $('#sponsors').css("display", "none");
-        $("#contact .content").append("<p>Sponsors to be revealed soon.<br><span style='font-size:60%'><a href='mailto:codehighlands@gmail.com'>Email</a> us if you are interested in becoming a sponsor!</span></p>");
-    }
+
     /* particlesJS('dom-id', params);
 /* @dom-id : set the html tag id [string, optional, default value : particles-js]
 /* @params: set the params [object, optional, default values : check particles.js] */

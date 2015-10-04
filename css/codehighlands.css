@@ -165,6 +165,7 @@ h4 {
 		-webkit-animation-delay: 0.2s;
 	    -o-animation-delay: 0.2s;
 	    animation-delay: 0.2s;
+        
 	}
 	.title .buttonbox {
 		text-align: center;
@@ -183,6 +184,7 @@ h4 {
 	/*border-width: 5px;*/
 	border-color: rgba(255,255,255,1);
 	background-color: rgba(255,255,255,.5);
+    
 }
 .page .content {
 	padding: 70px 40px 40px 40px;
@@ -270,4 +272,26 @@ h4 {
 .sidr-close {
 	font-size: 20px;
 	float: right;
+}
+
+.sponsor-item{
+            padding: 20px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.sponsor-item:hover{
+            background-color: #e55451;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
 }
