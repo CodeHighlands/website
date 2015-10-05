@@ -25,6 +25,17 @@ html {
 ::selection {
 	background: rgba(255,255,255,.3);
 }
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.7);
+	background: #2C2C2C;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #DFDFDF;
+	border-radius: 5px;
+}
 a {
 	letter-spacing: 2px;
 	text-decoration: none !important;

@@ -48,13 +48,19 @@ h2{
 }
 
 img:hover{
-    -webkit-transition: all .5s ease;
+    /*-webkit-transition: all .5s ease;
 -moz-transition: all .5s ease;
 -ms-transition: all .5s ease;
 -o-transition: all .5s ease;
 transition: all .5s ease;
     background-color: rgba(229,84,81,.5);
-    padding: 25px;
+    padding: 25px;*/
+    padding: 5px;
+    -ms-transform:rotate(-15deg);
+    -webkit-transform:rotate(-15deg);
+    -moz-transform:rotate(-15deg);
+    -o-transform:rotate(-15deg);
+    transform:rotate(-15deg);
 }
 
 img{
