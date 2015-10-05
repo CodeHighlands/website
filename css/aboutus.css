@@ -54,7 +54,7 @@ img:hover{
 -o-transition: all .5s ease;
 transition: all .5s ease;
     background-color: rgba(229,84,81,.5);
-    padding: 10px;
+    /*padding: 10px;*/
     -ms-transform:rotate(-10deg);
     -webkit-transform:rotate(-10deg);
     -moz-transform:rotate(-10deg);
